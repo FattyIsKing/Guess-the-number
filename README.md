@@ -1,2 +1,2 @@
 # Guess-the-number
-Po prostu tak
+Prosta gra przeglądarkowa polegająca na zgadywaniu losowej liczby.
