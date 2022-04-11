@@ -1,32 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-@keyframes appear{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-}
-
-@keyframes slide{
-    from{
-        transform: translateX(100%);
-    }
-    to{
-        transform: translateX(0%);
-    }
-}
-
 @keyframes scale{
-    from{
-        transform: rotate(0deg);
-    } 
-    to{
-        transform: rotate(360deg);
-    }
-}
-@keyframes scale2{
     from{
         transform: scale(0);
     }
@@ -86,7 +60,6 @@ body{
     height: 65%;
     width: 100%;
     color: white;
-    animation: appear 2s ease-in-out both, slide 2s ease-in-out both;
 }
 
 .box__footer{
@@ -110,7 +83,7 @@ body{
     width: 220px;
     transition: width 0.3s;
     font-size: large;
-    animation: scale2 0.5s ease-in-out both;
+    animation: scale 0.5s ease-in-out both;
 }
 
 .box__main input:focus{
@@ -119,7 +92,7 @@ body{
 
 #result{
     transform: scale(0);
-    animation: scale2 0.5s ease-in-out both;
+    animation: scale 0.5s ease-in-out both;
 }
 
 .box__main button{
